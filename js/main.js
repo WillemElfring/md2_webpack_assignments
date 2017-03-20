@@ -12,8 +12,28 @@
  * 5 variabelen met daarin een string
  * 5 variabelen met daarin een number
  * 5 variabelen met daarin een boolean
- * 
- * Geef ze een goede engelse naam en sla er iets in op wat een goed voorbeeld geeft
+ * **/
+    var school = "mediacollege";
+    var city = "Amsterdam";
+    var country = "Nederland";
+    var adress = "contact weg";
+    var catogory = "MBO";
+
+    var number = 36;
+    var students = 2000;
+    var birth_day = 27;
+    var birth_month = 6;
+    var birth_year = 1998;
+
+    var man = true;
+    var Mediadeveloper  = true;
+    var Mediadevormgever = false;
+    var Horizoncollege = false;
+    var mediacollege = true;
+
+
+
+ /** Geef ze een goede engelse naam en sla er iets in op wat een goed voorbeeld geeft
  * van Media Development producten (apps, sites, etc.)
  * Bijvoorbeeld een string variabele met de naam 'teacherName' en als waarde 'Berend'
  */
@@ -24,7 +44,17 @@
  * console.log de lengte van de arrays
  *
  * Bijvoorbeeld een Array met de naam 'students' en als waarde ['Berend', "Erwin']
- */
+ **/
+
+    var education = ["mediadeveloper", "gamedevelepor", "mediavormgever", "gameartist"];
+
+    var  Students = ["lucas", "sjaak", "tom","Willem", "bas", "jelle", "tristan"];
+
+    var schools = ["Mediacollege", "Horizoncollege", "ROC"];
+
+    console.log(schools.length);
+    console.log(Students.length);
+    console.log(education.length);
 
 /**
  * Opdracht 3: Arrays push
@@ -32,12 +62,20 @@
  * push er een string in
  */
 
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.push("Kiwi");
+
 /**
  * Opdracht 4: Array splice
  * Maak een array aan en vul hem met namen
  * Gooi de naam op de 1e plek weg
  * Gooi de naam op de 3e plek weg
  */
+
+var names = ['sjaak', 'tom', 'lucas', 'willem'];
+
+names
 
 /**
  * Opdracht 5: Objects
