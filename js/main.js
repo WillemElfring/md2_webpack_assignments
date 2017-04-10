@@ -91,6 +91,17 @@ names
  * en hoe oud hij is
  */
 
+var phone = {type:"iphone", model:"5" ,color:"black" };
+var laptop = {type:"terra", color:"black" };
+var shoes = {type:"Hub", model:"44" ,color:"black" };
+var earphones = {type:"roccat",color:"blue" };
+var mouse = {type:"razer", model:"naga" ,color:"black" };
+var keyboard = {type:"razer", model:"chroma" ,color:"black" };
+var headset = {type:"LG", model:"G933" ,color:"black" };
+var underwear = {type:"Bjorn Borg" ,color:"red" };
+var bag = {type:"East pack" ,color:"green" };
+var jacket = {type:"distrikt" ,color:"black" };
+
 /**
  * Opdracht 6: Functions
  * Bedenk 4 functies die handig zouden kunnen zijn
