@@ -6,6 +6,7 @@
  * of meerdere opdrachten af hebt
  */
 
+import 'les_6';
 
 /**
  * Opdracht 1: primitives
@@ -81,7 +82,8 @@ fruits.push("Kiwi");
 
 var names = ['sjaak', 'tom', 'lucas', 'willem'];
 
-names
+names.splice(0);
+console.log(names);
 
 /**
  * Opdracht 5: Objects
@@ -109,12 +111,51 @@ var jacket = {type:"distrikt" ,color:"black" };
  * parameters value & multiplier console.log( value * multiplier)
  */
 
+function multiply(value, multiplier) {
+    value = 1;
+    multiplier = 2;
+    console.log(value * multiplier);
+
+}
+multiply();
+
+function divide(value, divider) {
+    value = 6;
+    divider = 2;
+    console.log(value / divider);
+
+}
+divide();
+
+function minus(value, min) {
+    value = 10;
+    min = 2;
+    console.log(value - min);
+
+}
+minus();
+
+
+function plus(value, plusing) {
+    value = 1;
+    plusing = 2;
+    console.log(value + plusing);
+
+}
+plus();
 /**
  * Opdracht 7: Function & objects
  * Maak een functie die een firstName en lastName verwacht als parameter
  * vervolgens returned de functie een object met daarin de firstname en
  * lastname opgeslagen roep deze functie aan en console.log() de waarde
  */
+function name(firstName, lastName) {
+
+    return firstName + lastName;
+
+}
+console.log(name("Willem ", "Elfring"));
+
 
 /**
  * Opdracht 8: Functions, objects
@@ -122,12 +163,25 @@ var jacket = {type:"distrikt" ,color:"black" };
  * Maak in dit object bij het aanmaken een functie aan met de naam 'showName'
  */
 
+var student = {
+    firstName: "Willem",
+    lastName : "Elfring",
+    showName : function() {
+        return this.firstName + " " + this.lastName;
+    }
+};
+
 /**
  * Opdracht 9: Arrays & for loops
  * Maak een array genaamd 'students' met daarin 10 namen van je medeleerlingen
  * Schrijf een for loop om alle namen in de Array te laten zien (console.log())
  */
-
+ var students = ["sjaak", "Tom", "Lucas", "Bas", "Tristan", "Desteney", "Naomi", "Jesse", "Miguel", "luuk"];
+var i;
+ for (i = 0; i < students.length; i++) {
+     var studentjes = students[i];
+     console.log(studentjes);
+ }
 /**
  * Opdracht 10: Strings samenvoegen
  * Maak een variabele met de naam firstName, sla je voornaam hierin op
@@ -136,6 +190,11 @@ var jacket = {type:"distrikt" ,color:"black" };
  * 'lastName' hier samen in worden opgeslagen
  */
 
+var firstName = "Willem";
+var lastName =  " Elfring";
+
+var fullName = firstName + lastName;
+
 /**
  * Opdracht 11: Random cijfers
  * console.log() een willekeurige cijfer tussen 0 en 5
@@ -143,6 +202,18 @@ var jacket = {type:"distrikt" ,color:"black" };
  * console.log() een willekeurige cijfer tussen 30 en 40
  * console.log() een willekeurige cijfer tussen -100 en 100
  */
+function number1() {
+    Math.floor((Math.random() * 5) + 1);
+}
+function number2() {
+    Math.floor((Math.random() * 10) + 1);
+}
+function number3() {
+    Math.floor((Math.random() * 40) + 30);
+}
+function number4() {
+    Math.floor((Math.random() * 100) + -100);
+}
 
 /**
  * Opdracht 12: Primitive, Array of object?

@@ -8,6 +8,13 @@
  * Maak een variabele aan maar geef hem nog geen vulling. Console.log() wat existy() teruggeeft
  */
 
+import {existy} from './utils/conditions.utils';
+
+let mobile = "";
+
+console.log(existy(mobile));
+
+
 /**
  * Opdracht 2: exports
  *
